@@ -1,4 +1,4 @@
-
+import Counter from './counter';
 import './App.css'
 
 function App() {
@@ -18,6 +18,9 @@ const handleAdd5 = (num) => {
   return (
     <>
      <h3>Vite + React</h3>
+
+    <Counter></Counter>
+
      <button onClick={handleClick}>Click Me</button>
      <button onClick={function handleClick() {
       alert('clicked 2')
