@@ -1,5 +1,6 @@
 import Counter from './counter';
 import Batsman from './Batsman';
+import Users from './Users';
 import './App.css'
 
 function App() {
@@ -19,6 +20,7 @@ const handleAdd5 = (num) => {
   return (
     <>
      <h3>Vite + React</h3>
+     <Users></Users>
 <Batsman></Batsman>
     <Counter></Counter>
 
