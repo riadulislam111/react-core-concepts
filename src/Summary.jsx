@@ -33,3 +33,15 @@ const loadData = async () => {
     return data;
 
 }
+
+/**
+ * event trigger
+ * state
+ * data load form api
+ * loop through to display data
+ * why we use key prop
+ * 
+ * 
+ * 
+ * 
+ */
